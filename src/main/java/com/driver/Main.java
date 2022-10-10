@@ -4,7 +4,10 @@ public class Main {
   
   public static void main(String args[]){
      RWOnly obj=new RWOnly();
-    obj.name="manish";
+  //  obj.name="manish";
+    
+    obj.set("aditya");
+    System.out.println(obj.get());
   }
   
   
